@@ -18,7 +18,7 @@ setup(
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
-        "Intended Audience :: Developers",
+        "Intended Audience :: Developers,AI QA Testers",
         "Intended Audience :: Science/Research",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
@@ -29,16 +29,12 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
-        "Topic :: Software Development :: Libraries :: Python Modules",
+        "Topic :: Software Development :: Libraries :: QA ::Python Modules",
         "Topic :: Text Processing :: Linguistic",
     ],
     python_requires=">=3.7",
     install_requires=requirements,
-    keywords="chatbot evaluation nlp ai machine-learning metrics",
-    project_urls={
-        "Bug Reports": "https://github.com/your-username/R2K-ChatEval/issues",
-        "Source": "https://github.com/your-username/R2K-ChatEval",
-        "Documentation": "https://github.com/your-username/R2K-ChatEval/blob/main/README.md",
-    },
+    keywords="chatbot evaluation nlp ai metrics ",
+   ,
 )
 

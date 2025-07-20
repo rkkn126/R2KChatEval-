@@ -22,7 +22,7 @@ R2K ChatEval is an advanced, Python-based framework designed for comprehensive e
     cd R2K-ChatEval
     ```
 
-2.  **Create a virtual environment** (recommended):
+2.  **Create a virtual environment** (optional as per your usage):
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
@@ -80,7 +80,7 @@ R2K-ChatEval/
 
 ## Author
 
-This framework was developed by **Rama Nagireddi**.
+This framework was developed by **Rama Nagireddi, rkkn126@gmail.com**.
 
 ## License
 
