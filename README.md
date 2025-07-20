@@ -2,7 +2,9 @@
 
 ## Overview
 
-R2K ChatEval is an advanced, Python-based framework designed for comprehensive evaluation of chatbot responses. Developed by Rama Nagireddi, this framework introduces several innovative features, including multi-modal metric fusion, dynamic evaluation mode switching, content safety verification with contextual exception handling, and API failure resilience with graceful degradation. It is particularly notable for its ability to function effectively even without ground truth, making it a versatile tool for AI developers in selecting and refining chatbot models.
+R2K ChatEval is an advanced, Python-based framework engineered for the comprehensive evaluation of chatbot responses. As a local, zero-cost evaluation framework, it is built to be fast, flexible, and transparent. It operates without dependencies on external LLMs, API calls, or cloud services, allowing users to simply plug in their chatbot API, customize the configuration, and run the evaluation.
+The framework introduces a suite of innovative features, including multi-modal metric fusion, dynamic evaluation mode switching, content safety verification with contextual exception handling, and API failure resilience through graceful degradation. A key strength of the framework is its ability to operate effectively without ground truth data, establishing it as a versatile tool for AI developers focused on model selection and refinement.
+The framework is designed for high adaptability. Users, including AI researchers,product owners AI QE, can reference its approach and customize the code and configurations to meet specific business requirements. For instance, the weights of evaluation metrics can be adjusted to align with business priorities when assessing model performance. This flexibility positions R2K ChatEval as a powerful tool for AI Quality Engineering, ensuring that chatbot solutions meet both technical standards and strategic business objectives.
 
 ## Features
 
@@ -22,18 +24,13 @@ R2K ChatEval is an advanced, Python-based framework designed for comprehensive e
     cd R2K-ChatEval
     ```
 
-2.  **Create a virtual environment** (optional as per your usage):
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    ```
 
-3.  **Install dependencies**:
+2.  **Install dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
 
-4.  **Set up environment variables**:
+3.  **Set up environment variables**:
     Create a `.env` file in the root directory and add your chatbot API key:
     ```
     API_KEY="your_chatbot_api_key_here"
