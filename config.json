@@ -1,0 +1,49 @@
+{
+  "api_settings": {
+    "url": "chatbot API",
+    "model_name": "gpt4o",
+    "timeout": 60
+  },
+  "embedding_model": "all-MiniLM-L6-v2",
+  "content_safety": {
+    "banned_words": ["hate", "violence", "idiot", "kill", "terror"],
+    "safe_exceptions": ["anti-violence", "non-violent", "stop the violence"]
+  },
+  "evaluation_weights": {
+    "comparative": {
+      "bleu": 0.20,
+      "rouge_1": 0.15,
+      "rouge_2": 0.15,
+      "cosine_similarity": 0.50
+    },
+    "intrinsic": {
+      "ends_with_period": 0.3,
+      "relevance_score": 0.4,
+      "token_count_factor": 0.3
+    }
+  },
+  "scoring_parameters": {
+    "time_penalty_divisor": 10,
+    "relevance_entropy_divisor": 5,
+    "max_token_penalty_cap": 100
+  },
+  "metric_labels": {
+    "BLEU": "Precision",
+    "ROUGE-1": "Recall (Unigram )",
+    "ROUGE-2": "Recall (Bigram)",
+    "ROUGE-L": "Structure",
+    "Cosine Similarity": "Meaning",
+    "Length Ratio": "Length",
+    "Response Time": "Speed",
+    "Word Count": "Volume",
+    "Sentence Count": "Structure",
+    "Words/Sentence": "Density",
+    "Lexical Diversity": "Variety",
+    "Info Density": "Depth",
+    "Avg Word Length": "Complexity",
+    "Token Count": "Volume",
+    "Entropy": "Richness",
+    "Ends with Period": "Completion",
+    "Relevance Score": "Focus"
+  }
+}

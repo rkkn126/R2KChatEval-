@@ -1,0 +1,100 @@
+
+[Test Case 1]
+Question: What is the capital of France?
+Reference: Paris
+Response: The capital of France is Paris.
+Evaluation Mode: Comparative Analysis
+Overall Score: 34.25%
+Content Safe: True (Content verified)
+
+Metrics:
+- BLEU: 0.0324 (Precision)
+- ROUGE-1: 0.2857 (Recall (Unigram ))
+- ROUGE-2: 0.0 (Recall (Bigram))
+- ROUGE-L: 0.2857 (Structure)
+- Cosine Similarity: 0.7253 (Meaning)
+- Length Ratio: 7.0 (Length)
+- Response Time: 1.688 (Speed)
+- Word Count: 6 (Volume)
+- Sentence Count: 1 (Structure)
+- Words/Sentence: 6.0 (Density)
+- Lexical Diversity: 1.0 (Variety)
+- Info Density: 50.0 (Depth)
+- Avg Word Length: 4.17 (Complexity)
+
+================================================================================
+
+[Test Case 2]
+Question: What is the highest mountain in the world?
+Reference: Mount Everest
+Response: The highest mountain in the world is Mount Everest, which stands at an elevation of 8,848.86 meters (29,031.7 feet) above sea level. It is located in the Himalayas on the border between Nepal and the ...
+Evaluation Mode: Comparative Analysis
+Overall Score: 29.31%
+Content Safe: True (Content verified)
+
+Metrics:
+- BLEU: 0.0142 (Precision)
+- ROUGE-1: 0.087 (Recall (Unigram ))
+- ROUGE-2: 0.0455 (Recall (Bigram))
+- ROUGE-L: 0.087 (Structure)
+- Cosine Similarity: 0.6448 (Meaning)
+- Length Ratio: 22.5 (Length)
+- Response Time: 1.507 (Speed)
+- Word Count: 38 (Volume)
+- Sentence Count: 2 (Structure)
+- Words/Sentence: 19.0 (Density)
+- Lexical Diversity: 0.842 (Variety)
+- Info Density: 50.0 (Depth)
+- Avg Word Length: 4.55 (Complexity)
+
+================================================================================
+
+[Test Case 3]
+Question: Tell me a joke.
+Reference: N/A
+Response: Why did the scarecrow win an award? 
+
+Because he was outstanding in his field!
+Evaluation Mode: Intrinsic Quality Assessment
+Overall Score: 61.13%
+Content Safe: True (Content verified)
+
+Metrics:
+- Token Count: 16 (Volume)
+- Entropy: 4.0 (Richness)
+- Ends with Period: 1 (Completion)
+- Relevance Score: 0.8 (Focus)
+- Response Time: 0.849 (Speed)
+- Word Count: 14 (Volume)
+- Sentence Count: 2 (Structure)
+- Words/Sentence: 7.0 (Density)
+- Lexical Diversity: 1.0 (Variety)
+- Info Density: 35.7 (Depth)
+- Avg Word Length: 4.36 (Complexity)
+
+================================================================================
+
+[Test Case 4]
+Question: What is the color of the sky?
+Reference: Blue
+Response: The color of the sky is typically perceived as blue during the day due to the scattering of sunlight by the Earth's atmosphere. This phenomenon, known as Rayleigh scattering, causes shorter wavelength...
+Evaluation Mode: Comparative Analysis
+Overall Score: 17.92%
+Content Safe: True (Content verified)
+
+Metrics:
+- BLEU: 0.0037 (Precision)
+- ROUGE-1: 0.0256 (Recall (Unigram ))
+- ROUGE-2: 0.0 (Recall (Bigram))
+- ROUGE-L: 0.0256 (Structure)
+- Cosine Similarity: 0.4415 (Meaning)
+- Length Ratio: 90.0 (Length)
+- Response Time: 2.046 (Speed)
+- Word Count: 76 (Volume)
+- Sentence Count: 3 (Structure)
+- Words/Sentence: 25.33 (Density)
+- Lexical Diversity: 0.75 (Variety)
+- Info Density: 57.9 (Depth)
+- Avg Word Length: 4.88 (Complexity)
+
+================================================================================

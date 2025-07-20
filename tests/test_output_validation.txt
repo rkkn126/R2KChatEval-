@@ -1,0 +1,98 @@
+
+[Test Case 1]
+Question: What is the capital of France?
+Reference: Paris
+Response: API Error: Invalid URL 'chatbot API': No scheme supplied. Perhaps you meant https://chatbot API?
+Evaluation Mode: Comparative Analysis
+Overall Score: 1.88%
+Content Safe: True (Content verified)
+
+Metrics:
+- BLEU: 0 (Precision)
+- ROUGE-1: 0.0 (Recall (Unigram ))
+- ROUGE-2: 0.0 (Recall (Bigram))
+- ROUGE-L: 0.0 (Structure)
+- Cosine Similarity: 0.0376 (Meaning)
+- Length Ratio: 21.0 (Length)
+- Response Time: 0.0 (Speed)
+- Word Count: 13 (Volume)
+- Sentence Count: 2 (Structure)
+- Words/Sentence: 6.5 (Density)
+- Lexical Diversity: 0.846 (Variety)
+- Info Density: 84.6 (Depth)
+- Avg Word Length: 4.62 (Complexity)
+
+================================================================================
+
+[Test Case 2]
+Question: What is the highest mountain in the world?
+Reference: Mount Everest
+Response: API Error: Invalid URL 'chatbot API': No scheme supplied. Perhaps you meant https://chatbot API?
+Evaluation Mode: Comparative Analysis
+Overall Score: 2.31%
+Content Safe: True (Content verified)
+
+Metrics:
+- BLEU: 0 (Precision)
+- ROUGE-1: 0.0 (Recall (Unigram ))
+- ROUGE-2: 0.0 (Recall (Bigram))
+- ROUGE-L: 0.0 (Structure)
+- Cosine Similarity: 0.0461 (Meaning)
+- Length Ratio: 10.5 (Length)
+- Response Time: 0.0 (Speed)
+- Word Count: 13 (Volume)
+- Sentence Count: 2 (Structure)
+- Words/Sentence: 6.5 (Density)
+- Lexical Diversity: 0.846 (Variety)
+- Info Density: 84.6 (Depth)
+- Avg Word Length: 4.62 (Complexity)
+
+================================================================================
+
+[Test Case 3]
+Question: Tell me a joke.
+Reference: N/A
+Response: API Error: Invalid URL 'chatbot API': No scheme supplied. Perhaps you meant https://chatbot API?
+Evaluation Mode: Intrinsic Quality Assessment
+Overall Score: 67.81%
+Content Safe: True (Content verified)
+
+Metrics:
+- Token Count: 21 (Volume)
+- Entropy: 3.94 (Richness)
+- Ends with Period: 1 (Completion)
+- Relevance Score: 0.7878941988002572 (Focus)
+- Response Time: 0.0 (Speed)
+- Word Count: 13 (Volume)
+- Sentence Count: 2 (Structure)
+- Words/Sentence: 6.5 (Density)
+- Lexical Diversity: 0.846 (Variety)
+- Info Density: 84.6 (Depth)
+- Avg Word Length: 4.62 (Complexity)
+
+================================================================================
+
+[Test Case 4]
+Question: What is the color of the sky?
+Reference: Blue
+Response: API Error: Invalid URL 'chatbot API': No scheme supplied. Perhaps you meant https://chatbot API?
+Evaluation Mode: Comparative Analysis
+Overall Score: -0.67%
+Content Safe: True (Content verified)
+
+Metrics:
+- BLEU: 0 (Precision)
+- ROUGE-1: 0.0 (Recall (Unigram ))
+- ROUGE-2: 0.0 (Recall (Bigram))
+- ROUGE-L: 0.0 (Structure)
+- Cosine Similarity: -0.0134 (Meaning)
+- Length Ratio: 21.0 (Length)
+- Response Time: 0.0 (Speed)
+- Word Count: 13 (Volume)
+- Sentence Count: 2 (Structure)
+- Words/Sentence: 6.5 (Density)
+- Lexical Diversity: 0.846 (Variety)
+- Info Density: 84.6 (Depth)
+- Avg Word Length: 4.62 (Complexity)
+
+================================================================================
